@@ -1,29 +1,9 @@
 <div class="wrapper">
-  <!--try to delete sidebar
-  <script>
-    function clickSidebarButton() {
-      const elem = document.getElementById("site-sidebar")
-      if (elem.style.display == "none" || elem.style.display == "") {
-        elem.style.display = "block";
-      } else {
-        elem.style.display = "none";
-      }
-    }
-  </script>
-  <a class="site-sidebar-button" onclick="clickSidebarButton()">
-    {%- if site.avatar contains "://" -%}
-      {%- assign avatar = site.avatar -%}
-    {%- else -%}
-      {%- assign avatar = site.avatar | relative_url -%}
-    {%- endif -%}
-    <i class="far fa-user"></i>
-  </a>
-  -->
 
   <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
   {% if site.data.navigation %}
-    <nav class="site-nav">
+    <nav class="site-nav"> 
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger" title="nav-trigger">
         <span class="menu-icon">
@@ -45,7 +25,7 @@
                   {%- endfor %}
                 </div>
               </li>
-            {% else %}
+            {% else if nav.url %}
               <li><a class="{% if page.url == nav.url %}current-page{% endif %}" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a></li>
             {% endif %}
           {%- endif -%}

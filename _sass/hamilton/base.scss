@@ -38,11 +38,12 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
-  min-height: 100vh;
+  min-height: 50vh;
   flex-direction: column;
   overflow-wrap: break-word;
   line-height: $base-line-height;
 }
+
 
 p {
   -webkit-hyphens: auto;

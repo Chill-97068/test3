@@ -5,6 +5,11 @@ body {
   background-color: $background-color;
 }
 
+header {
+  color: $text-color-header;
+  background-color: $background-color;
+}
+
 a {
   color: $link-base-color;
 
@@ -63,8 +68,8 @@ table {
 ///////// Layout ///////////
 
 .site-header {
-  background-color: $background-color;
-  border-top-color: $border-color-dark;
+  background-color: $background-color-dark;
+  border-top-color: $border-color-light;
   border-bottom-color: $border-color-light;
 }
 
@@ -75,29 +80,29 @@ table {
 */
 
 .site-title {
-  color: $text-color;
+  color: $text-color-header;
   
   &:visited {
-    color: $text-color;
+    color: $text-color-header;
   }
 }
 
 .site-nav {
-  background-color: $background-color;
-  border-color: $border-color;
+  background-color: $background-color-dark;
+  border-color: $border-color-light;
 
   .menu-icon {
     > svg path {
-      fill: $border-color-dark;
+      fill: $border-color-light;
     }
   }
 
   li a {
-    color: $text-color;
+    color: $text-color-header;
   }
 
   .dropdown-content {
-    background-color: $border-color-light;
+    background-color: $border-color-dark;
     box-shadow: $dropdown-shadow;
   }
 }
@@ -109,6 +114,7 @@ table {
 }
 
 .post-header {
+  color: $text-color-light;
   border-bottom-color: $border-color-light;
 }
 

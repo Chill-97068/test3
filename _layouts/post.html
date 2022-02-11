@@ -34,6 +34,7 @@ layout: default
     {{ content }}
   </div>
 
+  {% comment %}
   <footer class="post-footer">
     {% if page.categories.size > 0 %}
       <div class="post-meta">
@@ -49,6 +50,8 @@ layout: default
         </ul>
       </div>
     {% endif %}
+    
+  {% endcomment %}
 
     {% if page.tags.size > 0 %}
       <div class="post-meta">
