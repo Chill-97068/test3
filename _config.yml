@@ -1,15 +1,25 @@
 title: 成大電機 專題資訊
-description: 系學會採訪教授們關於成大電機的專題資訊
-author: NCKU EESA
+description: 成大電機系學會的專題資訊整理網站
+author: NCKU EESA  
 
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
 
-# Jekyll
-# ======
 exclude:
   - scripts/
   - README.md
   - post_tutorial.md
+
+lang: zh-Hant-TW
+locale: zh-Hant-TW
+
+social:
+  name: nckueesa
+  links:
+    - https://www.facebook.com/ncku.eesa
+    - https://instagram.com/nckueesa
+
+facebook:
+  admins: ncku.eesa

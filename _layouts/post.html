@@ -51,7 +51,6 @@ layout: default
       </div>
     {% endif %}
     
-  {% endcomment %}
 
     {% if page.tags.size > 0 %}
       <div class="post-meta">
@@ -86,6 +85,7 @@ layout: default
           </span>
         </a>
       {% endif %}
+      
     </nav>
   </footer>
 
@@ -93,4 +93,5 @@ layout: default
     {% include disqus.html %}
   {% endif %}
   
+  {% endcomment %}
 </article>
