@@ -2,6 +2,7 @@
 - 更新social->github
 - 更新README.md
 - google console
+- 更新README以及其他地方的premalink
 
 # 如何使用這個網站
 
