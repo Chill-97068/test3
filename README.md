@@ -7,7 +7,7 @@
 
 - 更新採訪內容
   - 把採訪內容更新在 <_post> 資料夾裡
-  - 參考[這篇](_post/如何更新採訪結果.md)
+  - 參考[這篇](https://github.com/Chill-97068/test3/blob/53117ba875c8ae6f41edb0e6f73a08b0c407ba0b/_posts/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0%E6%8E%A1%E8%A8%AA%E7%B5%90%E6%9E%9C.md)
   - 一些比較重要的post屬性解說：
     - layout : 決定頁面的格式
     - title : 頁面的標題、名稱
