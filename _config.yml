@@ -10,7 +10,7 @@ plugins:
 exclude:
   - scripts/
   - README.md
-  - post_tutorial.md
+  - 如何更新採訪結果.md
 
 lang: zh-Hant-TW
 locale: zh-Hant-TW
